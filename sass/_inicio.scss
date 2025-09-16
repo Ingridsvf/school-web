@@ -1,0 +1,179 @@
+@import "variables";
+
+
+header {
+    box-shadow: 1px 2px 10px 3px rgba(0, 0, 0, 0.1);
+
+img { 
+        width: 120px;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    ul {
+        gap: 20px;
+    }
+}
+.admision-button{
+    padding-right: 100px;
+}
+}
+
+
+
+
+.niveles{
+    img:hover{
+        transform: scale(1.05); 
+    }
+
+}
+
+.formulario {
+    background-color: $primarycolor;
+    padding: 5% 10%;
+    .form-control {
+        padding: 0.75rem;
+    }
+    select {
+        padding: 0.75rem;
+    }
+
+}
+
+
+/*MEDIA*/
+
+@media (min-width: 340px) {
+    .admision-button {
+        display: none;
+    }
+    /* CARRUSEL*/
+.caption{
+    position: absolute;
+    right: 15%;
+    bottom: 4rem;
+    left: 15%;
+    text-align: left;
+    color: #fff;
+    h1{
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        line-height: 1;
+        font-weight: 700;
+        font-size: 20px;
+    }
+}
+.beneficios {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content:space-between;
+    background:$primarycolor ;
+    color:#fff;
+    img {
+        width: 25%;
+    }
+     figure {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 1rem ;
+        text-align: center;
+    }
+    p {
+        margin-bottom: 0rem;
+    }
+}
+
+.superior{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-bottom: 2%;
+
+    }
+}
+
+
+@media (min-width: 1024px){
+.admision-button {
+        display: flex;
+    }
+    /* CARRUSEL*/
+.caption{
+    position: absolute;
+    right: 15%;
+    bottom: 25rem;
+    left: 15%;
+    text-align: left;
+    color: #fff;
+    h1 {
+        font-weight: 700;
+        font-size: 50px;
+    }
+}
+.beneficios {
+    display: flex;
+    justify-content:space-between;
+    background:$primarycolor;
+    img {
+        width: 25%;
+    }
+    figure {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 1rem ;
+    }
+    p {
+        margin-bottom: 0rem;
+    }
+}
+
+.superior{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding-bottom: 2%;
+
+    }
+}
+
+
+
+.convenios {
+    img{
+        width: 190px;
+    }
+}
+
+
+
+
+footer{
+    background-color: $primarycolor;
+    padding: 3%;
+    color: #fff;
+
+    .logo-footer {
+        width: 200px;
+    }
+    h6 {
+        font-weight: 700;
+        margin-top: .5rem;
+    }
+    .social{
+        list-style-type: none;
+        display: flex;
+        justify-content: flex-start;
+        padding-inline-end: 70px;
+        padding-left: 0;
+        margin-top: 1rem;
+
+        img{
+            width: 40%;
+        }
+       
+    }
+    
+    .inferior {
+        text-align: center;
+    }
+}

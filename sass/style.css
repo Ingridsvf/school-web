@@ -1,0 +1,150 @@
+header {
+  box-shadow: 1px 2px 10px 3px rgba(0, 0, 0, 0.1);
+}
+header img {
+  width: 120px;
+}
+header .menu {
+  display: flex;
+  justify-content: center;
+}
+header .menu ul {
+  gap: 20px;
+}
+header .admision-button {
+  padding-right: 100px;
+}
+
+.niveles img:hover {
+  transform: scale(1.05);
+}
+
+.formulario {
+  background-color: #01BFB1;
+  padding: 5% 10%;
+}
+.formulario .form-control {
+  padding: 0.75rem;
+}
+.formulario select {
+  padding: 0.75rem;
+}
+
+/*MEDIA*/
+@media (min-width: 340px) {
+  .admision-button {
+    display: none;
+  }
+  /* CARRUSEL*/
+  .caption {
+    position: absolute;
+    right: 15%;
+    bottom: 4rem;
+    left: 15%;
+    text-align: left;
+    color: #fff;
+  }
+  .caption h1 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    line-height: 1;
+    font-weight: 700;
+    font-size: 20px;
+  }
+  .beneficios {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    background: #01BFB1;
+    color: #fff;
+  }
+  .beneficios img {
+    width: 25%;
+  }
+  .beneficios figure {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1rem;
+    text-align: center;
+  }
+  .beneficios p {
+    margin-bottom: 0rem;
+  }
+  .superior {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-bottom: 2%;
+  }
+}
+@media (min-width: 1024px) {
+  .admision-button {
+    display: flex;
+  }
+  /* CARRUSEL*/
+  .caption {
+    position: absolute;
+    right: 15%;
+    bottom: 25rem;
+    left: 15%;
+    text-align: left;
+    color: #fff;
+  }
+  .caption h1 {
+    font-weight: 700;
+    font-size: 50px;
+  }
+  .beneficios {
+    display: flex;
+    justify-content: space-between;
+    background: #01BFB1;
+  }
+  .beneficios img {
+    width: 25%;
+  }
+  .beneficios figure {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+  .beneficios p {
+    margin-bottom: 0rem;
+  }
+  .superior {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-bottom: 2%;
+  }
+}
+.convenios img {
+  width: 190px;
+}
+
+footer {
+  background-color: #01BFB1;
+  padding: 3%;
+  color: #fff;
+}
+footer .logo-footer {
+  width: 200px;
+}
+footer h6 {
+  font-weight: 700;
+  margin-top: 0.5rem;
+}
+footer .social {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  padding-inline-end: 70px;
+  padding-left: 0;
+  margin-top: 1rem;
+}
+footer .social img {
+  width: 40%;
+}
+footer .inferior {
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
